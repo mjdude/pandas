@@ -22,3 +22,11 @@ print(ser1)
 ser2 = pd.Series([1,2,5,4], ['USA','Germany', 'Italy', 'Japan'])
 
 print(ser2)
+
+# Selecting value by using index
+
+print(ser1['USA'])
+
+# Add series , if index match up values are added otherewidse we get a NaN (null)
+
+print( ser1 + ser2)

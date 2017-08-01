@@ -30,3 +30,8 @@ print(resultdf['X'])
 print('result df in one step')
 
 print(df[df['W'] > 0]['X'])
+
+# MULTIPLE CONDITIONS SELECTION
+WandYdf = df[(df['W'] > 0) & (df['Y'] > 1)]
+print('Multiple conditions')
+print(WandYdf)
